@@ -1,0 +1,24 @@
+{
+  "name": "nodejs_bcknd",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@google/genai": "^1.30.0",
+    "@google/generative-ai": "^0.24.1",
+    "chunking": "^1.0.8",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "langchain": "^1.0.6",
+    "multer": "^2.0.2",
+    "pdf-parse": "^1.1.1",
+    "sqlite3": "^5.1.7"
+  }
+}
